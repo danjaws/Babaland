@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Babaland:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Babaland_jar</output-path>
+    <root id="archive" name="Babaland.jar">
+      <element id="module-output" name="Babaland" />
+    </root>
+  </artifact>
+</component>

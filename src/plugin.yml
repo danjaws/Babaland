@@ -1,0 +1,16 @@
+name: Babaland
+version: 0.13
+main: babaland.main.Main
+author: danjaws
+api-version: 1.16
+commands:
+  gm:
+    usage: /<command>
+    description: DO NOT USE.
+  cleargrounditems:
+    usage: /<command> [radius]
+    aliases: [cgi]
+    description: Clear ground items in [] radius.
+  online:
+    usage: /<command> [player]
+    description: Convert ticks to time.
