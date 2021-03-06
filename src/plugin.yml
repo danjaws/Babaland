@@ -14,3 +14,6 @@ commands:
   online:
     usage: /<command> [player]
     description: Convert ticks to time.
+  ping:
+    usage: /<command>
+    description: Check player's connection.

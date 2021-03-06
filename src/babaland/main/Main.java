@@ -2,6 +2,7 @@ package babaland.main;
 
 import babaland.main.commands.Gamemode;
 import babaland.main.commands.clearground.ClearGroundItems;
+import babaland.main.commands.ping.PlayerPing;
 import babaland.main.commands.tickconversion.TickConversion;
 import babaland.main.events.PlayerEvents;
 import babaland.main.tps.Lag;
@@ -16,6 +17,7 @@ public class Main extends JavaPlugin {
         getCommand("gm").setExecutor(new Gamemode());
         getCommand("cleargrounditems").setExecutor(new ClearGroundItems());
         getCommand("online").setExecutor(new TickConversion());
+        getCommand("ping").setExecutor(new PlayerPing());
 
         Bukkit.getServer().getScheduler().scheduleSyncRepeatingTask(this, new Lag(), 100L, 1L);
     }

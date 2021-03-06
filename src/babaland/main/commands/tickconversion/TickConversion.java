@@ -25,7 +25,7 @@ public class TickConversion implements CommandExecutor {
                 int ticks = alive.getScore();
                 int secondTime = ticks / 20;
 
-                SimpleDateFormat sdf = new SimpleDateFormat("HH' hours 'mm' minutes and 'ss' seconds'");
+                SimpleDateFormat sdf = new SimpleDateFormat("DD 'days' HH' hours 'mm' minutes and 'ss' seconds'");
                 player.sendMessage(ChatColor.GREEN + "" + args[0] + " has been alive for " + sdf.format(new Date(secondTime*1000L)));
             }
         } else {

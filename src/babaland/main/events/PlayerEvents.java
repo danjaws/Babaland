@@ -105,7 +105,7 @@ public class PlayerEvents implements Listener {
                 World world = player.getWorld();
 
                 if(world.getTime() >= 12500 || world.hasStorm()) {
-                    world.setTime(1000);
+                    world.setTime(500);
                     world.setStorm(false);
                     player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent("You have baba slept!"));
 
